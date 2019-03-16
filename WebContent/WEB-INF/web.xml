@@ -10,28 +10,35 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <context-param>
-  	<param-name>driver</param-name>
-  	<param-value>com.mydriver.jdbc.Driver</param-value>
+    <param-name>driver</param-name>
+    <param-value>com.mydriver.jdbc.Driver</param-value>
   </context-param>
   
   <servlet>
-  	<servlet-name>helloServlet</servlet-name>
-  	<servlet-class>com.wj.servlet.HelloServlet</servlet-class>
+    <servlet-name>helloServlet</servlet-name>
+    <servlet-class>com.wj.servlet.HelloServlet</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  	<servlet-name>helloServlet</servlet-name>
-  	<url-pattern>/hello</url-pattern>
+    <servlet-name>helloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
   </servlet-mapping>
   
-    <servlet>
-  	<servlet-name>loginServlet</servlet-name>
-  	<servlet-class>com.wj.servlet.LoginServlet</servlet-class>
+  <servlet>
+    <servlet-name>helloServlet2</servlet-name>
+    <servlet-class>com.wj.servlet.LoginServlet2</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  	<servlet-name>loginServlet</servlet-name>
-  	<url-pattern>/loginServlet</url-pattern>
+    <servlet-name>helloServlet2</servlet-name>
+    <url-pattern>/loginServlet2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>loginServlet3</servlet-name>
+    <servlet-class>com.wj.servlet.LoginServlet3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet3</servlet-name>
+    <url-pattern>/loginServlet3</url-pattern>
   </servlet-mapping>
   
 </web-app>

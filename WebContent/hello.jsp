@@ -13,5 +13,19 @@ hello world
 	Person person = new Person();
 	System.out.println(person.getPersonInfo());
 %>
+<br>
+<%
+	out.println(application.getContextPath());
+	
+	out.println(request.getContextPath());
+	
+	out.println("<br>");
+	
+	out.println(session.getLastAccessedTime());
+	
+	out.println("<br>");
+	
+	out.println(application.getInitParameter("user"));
+%>
 </body>
 </html>
