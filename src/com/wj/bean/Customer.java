@@ -1,6 +1,12 @@
 package com.wj.bean;
 
 public class Customer {
+	public Customer(Integer id, String name, Integer age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
 	private Integer id;
 	private String name;
 	private Integer age;
