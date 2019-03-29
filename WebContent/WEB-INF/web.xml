@@ -99,6 +99,12 @@
   	<url-pattern>/filter/test.jsp</url-pattern>
   </filter-mapping>
   
+  <listener>
+  	<listener-class>com.wj.listener.HelloServletListener</listener-class>
+  </listener>
   
+  <listener>
+  	<listener-class>com.wj.listener.testAttributeListener</listener-class>
+  </listener>
   
 </web-app>
